@@ -7,7 +7,7 @@ session = boto3.Session()
 sagemaker_runtime = session.client('sagemaker-runtime', region_name=session.region_name)
 
 # The name of the endpoint. The name must be unique within an AWS Region in your AWS account. 
-endpoint_name='flan-t5-xxl-2023-03-10-07-09-14-864'
+endpoint_name='flan-t5-xxl-2023-05-02-14-30-39-070'
 
 st.sidebar.title("Flan-T5 Parameters")
 
